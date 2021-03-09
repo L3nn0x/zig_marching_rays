@@ -72,7 +72,6 @@ fn shade(pos: Vec3) u8 {
 }
 
 pub fn main() !void {
-    const stdout = std.io.getStdOut().outStream();
     var terminal = display.Terminal.init();
     terminal.cls();
     raymarch(&terminal);
