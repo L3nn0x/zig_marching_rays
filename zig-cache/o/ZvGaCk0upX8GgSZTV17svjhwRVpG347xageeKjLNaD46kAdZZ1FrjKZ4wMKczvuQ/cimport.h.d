@@ -1,0 +1,21 @@
+cimport.o: \
+  /mnt/c/Users/drago/Documents/GitHub/zig_marching_rays/zig-cache/o/ZvGaCk0upX8GgSZTV17svjhwRVpG347xageeKjLNaD46kAdZZ1FrjKZ4wMKczvuQ/cimport.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/unistd.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/features.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/stdc-predef.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/sys/cdefs.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/posix_opt.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/types.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/time64.h \
+  /usr/lib/zig/0.6.0/lib/zig/include/stddef.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/confname.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/getopt_posix.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/getopt_core.h \
+  /usr/lib/zig/0.6.0/lib/zig/libc/include/generic-glibc/bits/unistd_ext.h
