@@ -1,11 +1,6 @@
 const std = @import("std");
 const Vec3 = @import("vec3.zig").Vec3;
 const display = @import("display.zig");
-const c = @cImport({
-    @cInclude("unistd.h");
-});
-
-const warn = @import("std").debug.warn;
 
 fn raymarch(terminal: *display.Terminal) void {
     var y: usize = 0;
@@ -79,10 +74,7 @@ fn shade(pos: Vec3) u8 {
 pub fn main() !void {
     const stdout = std.io.getStdOut().outStream();
     var terminal = display.Terminal.init();
-    while (true) {
-        terminal.cls();
-        raymarch(&terminal);
-        terminal.present();
-        _ = c.sleep(1);
-    }
+    terminal.cls();
+    raymarch(&terminal);
+    terminal.present();
 }
